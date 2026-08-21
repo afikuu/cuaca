@@ -1,0 +1,143 @@
+*,html,body{
+padding: 0px;
+margin: 0px;
+
+}
+body {
+ background: linear-gradient(
+    135deg,
+    #FFFFFF 0%,
+    #F4F7FA 55%,
+    #E8EFF8 100%
+  );
+    height: 100vh; 
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section { padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100vw;
+    color: white;
+    font-size: 8px;
+   
+  background: linear-gradient(
+    135deg,
+    #6A11CB 0%,
+    #8E2DE2 50%,
+    #C77DFF 100%
+  );
+
+}
+.text {padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+#input {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    
+}
+#button {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(161, 17, 17);
+    font-weight: bold;
+}
+
+
+
+
+
+div{display: flex;
+   
+    flex-direction: column;
+}
+div.card{padding: 10px;
+    font-size: 20px;
+  
+}
+
+
+#tabel {  
+ padding: 10px;
+    border-radius: 20px;
+width: 500px;
+min-height: 20vh;
+  background: #4169e1;
+margin: 20px;
+font-size: 20px;
+
+}
+.bagianatas {
+    padding: 5px;
+       background: #EAF3FF;
+border: 7px solid #B9D5F5;
+border-radius: 24px;
+   
+    min-height: 20px;
+ color: #17324D;
+    align-items:baseline
+}
+.bagiantengah {
+    align-items: center;
+    min-width: 30vw;
+    height: 20vh;
+  color: #eaf3ff;
+}
+#cuaca {
+    font-size: 27px;
+   font-weight: bold;
+    margin-top: 10px;
+}
+.bagianbawah {
+
+   
+    overflow-x: auto;
+    overflow-y: hidden;
+   scroll-behavior: smooth;
+    display: grid;
+    grid-auto-flow: column;
+    color: #17324D
+}
+.card { 
+    background: #EAF3FF;
+border: 7px solid #B9D5F5;
+border-radius: 24px;
+    /* background-color: #f0f5fa;
+    border-radius: 20px;
+    border: 6px solid #e5ded0; */
+    margin: 5px;
+  color: #24211d;
+    height: 85px;
+   width: 130px;
+    font-size: 12px;
+}
+#icon {
+   margin-top: 37px;
+   position: absolute;
+}
+
+
+@media screen and (max-width: 678px) {
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+    #tabel {
+    width: 90vw;
+  }
+  #button {width:40px}
+  #input {
+    width:250px;
+  }
+  .text{
+    font-size: 16px;}
+}
